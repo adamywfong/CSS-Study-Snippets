@@ -1,4 +1,4 @@
-/* TODO: Add all css */
+/* App Colors */
 :root {
     --dark:#343434;
     --pink: rgba(232, 102, 236, 1);
@@ -71,6 +71,11 @@ pre {
 .card:hover,
 .card:hover .card-header {
     box-shadow: inset 0px 0px 8px var(--pink), 0 0 15px var(--pink);
+}
+
+/* on <pre> click, select all contents so the code is highlighted */
+.code-card:active {
+    user-select: all;
 }
 
 
